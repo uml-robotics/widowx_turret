@@ -10,7 +10,7 @@
 			</geometry>
 		</visual>
 	</link>
-	<xacro:widowx_turret parent="base_footprint" prefix="">
-		<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+	<xacro:widowx_turret parent="base_link" prefix="">
+		<origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 -1.57"/>
 	</xacro:widowx_turret>
 </robot>
